@@ -1,0 +1,188 @@
+colour	x	y	label	showSelectedlegendcolour	group
+#00C094	66.1853902439024	6.009	United Arab Emirates	Middle East & North Africa (all income levels)	4
+#A58AFF	37.2571219512195	7.692	Afghanistan	South Asia	6
+#C49A00	68.3258292682927	4.417	Albania	Europe & Central Asia (all income levels)	2
+#C49A00	70.527512195122	2.745	Armenia	Europe & Central Asia (all income levels)	2
+#FB61D7	38.979243902439	7.185	Angola	Sub-Saharan Africa (all income levels)	7
+#53B400	68.0030731707317	3.321	Argentina	Latin America & Caribbean (all income levels)	3
+#C49A00	71.0841463414634	1.82	Austria	Europe & Central Asia (all income levels)	2
+#F8766D	72.6253658536586	2.148	Australia	East Asia & Pacific (all income levels)	1
+#53B400	70.7778048780488	2.506	Aruba	Latin America & Caribbean (all income levels)	3
+#C49A00	65.1874390243903	3.95	Azerbaijan	Europe & Central Asia (all income levels)	2
+#C49A00	68.6315853658537	2.412	Bosnia and Herzegovina	Europe & Central Asia (all income levels)	2
+#53B400	70.3433170731707	2.393	Barbados	Latin America & Caribbean (all income levels)	3
+#A58AFF	43.3347804878049	6.831	Bangladesh	South Asia	6
+#C49A00	71.9712195121951	1.736	Belgium	Europe & Central Asia (all income levels)	2
+#FB61D7	43.6348048780488	6.868	Burkina Faso	Sub-Saharan Africa (all income levels)	7
+#C49A00	71.049756097561	2.23	Bulgaria	Europe & Central Asia (all income levels)	2
+#00C094	67.4118780487805	5.556	Bahrain	Middle East & North Africa (all income levels)	4
+#FB61D7	44.822	6.823	Burundi	Sub-Saharan Africa (all income levels)	7
+#FB61D7	43.0276097560976	6.929	Benin	Sub-Saharan Africa (all income levels)	7
+#F8766D	69.0215853658537	5.365	Brunei Darussalam	East Asia & Pacific (all income levels)	1
+#53B400	48.2261707317073	6.183	Bolivia	Latin America & Caribbean (all income levels)	3
+#53B400	60.488512195122	4.499	Brazil	Latin America & Caribbean (all income levels)	3
+#53B400	66.7560487804878	3.234	Bahamas, The	Latin America & Caribbean (all income levels)	3
+#A58AFF	43.2459756097561	6.692	Bhutan	South Asia	6
+#FB61D7	57.5469756097561	6.477	Botswana	Sub-Saharan Africa (all income levels)	7
+#C49A00	70.8328780487805	2.17	Belarus	Europe & Central Asia (all income levels)	2
+#53B400	68.2665609756098	6.278	Belize	Latin America & Caribbean (all income levels)	3
+#00B6EB	73.5217073170732	1.824	Canada	North America	5
+#FB61D7	45.1399756097561	6.366	Congo, Dem. Rep.	Sub-Saharan Africa (all income levels)	7
+#FB61D7	45.832756097561	5.95	Central African Republic	Sub-Saharan Africa (all income levels)	7
+#FB61D7	54.9791707317073	6.325	Congo, Rep.	Sub-Saharan Africa (all income levels)	7
+#C49A00	74.6656097560976	1.598	Switzerland	Europe & Central Asia (all income levels)	2
+#FB61D7	47.9595609756098	7.917	Cote d'Ivoire	Sub-Saharan Africa (all income levels)	7
+#53B400	65.4621463414634	3.163	Chile	Latin America & Caribbean (all income levels)	3
+#FB61D7	48.7498780487805	6.366	Cameroon	Sub-Saharan Africa (all income levels)	7
+#F8766D	65.6915609756098	3.783	China	East Asia & Pacific (all income levels)	1
+#53B400	62.7040243902439	4.631	Colombia	Latin America & Caribbean (all income levels)	3
+#53B400	69.5594146341464	3.968	Costa Rica	Latin America & Caribbean (all income levels)	3
+#53B400	71.9519268292683	2.844	Cuba	Latin America & Caribbean (all income levels)	3
+#FB61D7	56.578243902439	6.771	Cape Verde	Sub-Saharan Africa (all income levels)	7
+#C49A00	73.7115365853659	2.352	Cyprus	Europe & Central Asia (all income levels)	2
+#C49A00	70.4146341463415	2.43	Czech Republic	Europe & Central Asia (all income levels)	2
+#C49A00	71.3867804878049	1.45	Germany	Europe & Central Asia (all income levels)	2
+#00C094	45.4339268292683	6.985	Djibouti	Middle East & North Africa (all income levels)	4
+#C49A00	74.0751219512195	1.919	Denmark	Europe & Central Asia (all income levels)	2
+#53B400	61.0320975609756	5.193	Dominican Republic	Latin America & Caribbean (all income levels)	3
+#00C094	56.1955609756098	7.332	Algeria	Middle East & North Africa (all income levels)	4
+#53B400	60.0643658536585	5.717	Ecuador	Latin America & Caribbean (all income levels)	3
+#C49A00	69.7346341463415	2.08	Estonia	Europe & Central Asia (all income levels)	2
+#00C094	53.1604634146342	5.585	Egypt, Arab Rep.	Middle East & North Africa (all income levels)	4
+#FB61D7	44.4299512195122	6.497	Eritrea	Sub-Saharan Africa (all income levels)	7
+#C49A00	73.3187804878049	2.788	Spain	Europe & Central Asia (all income levels)	2
+#FB61D7	44.217	6.769	Ethiopia	Sub-Saharan Africa (all income levels)	7
+#C49A00	71.6736585365854	1.688	Finland	Europe & Central Asia (all income levels)	2
+#F8766D	61.5300975609756	4.054	Fiji	East Asia & Pacific (all income levels)	1
+#F8766D	63.8545853658537	6.682	Micronesia, Fed. Sts.	East Asia & Pacific (all income levels)	1
+#C49A00	72.8536585365854	2.09	France	Europe & Central Asia (all income levels)	2
+#FB61D7	50.6999024390244	5.023	Gabon	Sub-Saharan Africa (all income levels)	7
+#C49A00	72.7243902439024	1.81	United Kingdom	Europe & Central Asia (all income levels)	2
+#53B400	64.6137804878049	4.436	Grenada	Latin America & Caribbean (all income levels)	3
+#C49A00	68.6816097560976	2.502	Georgia	Europe & Central Asia (all income levels)	2
+#FB61D7	51.2058536585366	6.815	Ghana	Sub-Saharan Africa (all income levels)	7
+#FB61D7	43.1097317073171	6.293	Gambia, The	Sub-Saharan Africa (all income levels)	7
+#FB61D7	36.2787317073171	6.882	Guinea	Sub-Saharan Africa (all income levels)	7
+#FB61D7	41.2463658536585	5.674	Equatorial Guinea	Sub-Saharan Africa (all income levels)	7
+#C49A00	73.0244634146342	2.365	Greece	Europe & Central Asia (all income levels)	2
+#53B400	55.1896097560976	6.201	Guatemala	Latin America & Caribbean (all income levels)	3
+#F8766D	67.7789024390244	3.801	Guam	East Asia & Pacific (all income levels)	1
+#FB61D7	38.3902926829268	6.866	Guinea-Bissau	Sub-Saharan Africa (all income levels)	7
+#53B400	58.0670487804878	4.383	Guyana	Latin America & Caribbean (all income levels)	3
+#F8766D	73.3682926829268	2.666	Hong Kong SAR, China	East Asia & Pacific (all income levels)	1
+#53B400	55.6771219512195	6.844	Honduras	Latin America & Caribbean (all income levels)	3
+#C49A00	70.0019512195122	1.985	Croatia	Europe & Central Asia (all income levels)	2
+#53B400	48.8693414634146	5.642	Haiti	Latin America & Caribbean (all income levels)	3
+#C49A00	69.29	2.35	Hungary	Europe & Central Asia (all income levels)	2
+#F8766D	54.8905365853659	5.043	Indonesia	East Asia & Pacific (all income levels)	1
+#C49A00	71.5462926829268	3.396	Ireland	Europe & Central Asia (all income levels)	2
+#00C094	72.0451219512195	3.554	Israel	Middle East & North Africa (all income levels)	4
+#A58AFF	52.5806097560976	5.077	India	South Asia	6
+#00C094	60.7249512195122	6.993	Iraq	Middle East & North Africa (all income levels)	4
+#00C094	55.2263658536585	6.204	Iran, Islamic Rep.	Middle East & North Africa (all income levels)	4
+#C49A00	75.5787804878049	2.613	Iceland	Europe & Central Asia (all income levels)	2
+#C49A00	72.6473170731708	2.208	Italy	Europe & Central Asia (all income levels)	2
+#C49A00	72.3246097560976	1.659	Channel Islands	Europe & Central Asia (all income levels)	2
+#53B400	69.3587317073171	4.478	Jamaica	Latin America & Caribbean (all income levels)	3
+#00C094	64.3139512195122	7.596	Jordan	Middle East & North Africa (all income levels)	4
+#F8766D	75.0573170731707	1.909	Japan	East Asia & Pacific (all income levels)	1
+#FB61D7	55.0311219512195	7.84	Kenya	Sub-Saharan Africa (all income levels)	7
+#C49A00	61.5363170731707	4.365	Kyrgyz Republic	Europe & Central Asia (all income levels)	2
+#F8766D	34.1257317073171	4.901	Cambodia	East Asia & Pacific (all income levels)	1
+#FB61D7	49.9868292682927	7.054	Comoros	Sub-Saharan Africa (all income levels)	7
+#F8766D	65.2314390243902	3.101	Korea, Dem. Rep.	East Asia & Pacific (all income levels)	1
+#F8766D	63.9558536585366	3.47	Korea, Rep.	East Asia & Pacific (all income levels)	1
+#00C094	68.7905609756098	6.421	Kuwait	Middle East & North Africa (all income levels)	4
+#C49A00	63.4055365853659	3.249	Kazakhstan	Europe & Central Asia (all income levels)	2
+#F8766D	47.2365365853659	6.059	Lao PDR	East Asia & Pacific (all income levels)	1
+#00C094	65.8452926829268	4.536	Lebanon	Middle East & North Africa (all income levels)	4
+#53B400	66.1578780487805	5.462	St. Lucia	Latin America & Caribbean (all income levels)	3
+#A58AFF	65.5611463414634	3.783	Sri Lanka	South Asia	6
+#FB61D7	43.1158780487805	6.88	Liberia	Sub-Saharan Africa (all income levels)	7
+#FB61D7	50.7529756097561	5.761	Lesotho	Sub-Saharan Africa (all income levels)	7
+#C49A00	70.8673170731707	2.19	Lithuania	Europe & Central Asia (all income levels)	2
+#C49A00	70.6633902439025	1.55	Luxembourg	Europe & Central Asia (all income levels)	2
+#C49A00	68.9253658536585	1.96	Latvia	Europe & Central Asia (all income levels)	2
+#00C094	55.093	7.511	Libya	Middle East & North Africa (all income levels)	4
+#00C094	54.0935609756098	6.42	Morocco	Middle East & North Africa (all income levels)	4
+#C49A00	65.0076829268293	2.483	Moldova	Europe & Central Asia (all income levels)	2
+#C49A00	71.9150731707317	2.375	Montenegro	Europe & Central Asia (all income levels)	2
+#FB61D7	45.8969756097561	7.216	Madagascar	Sub-Saharan Africa (all income levels)	7
+#C49A00	68.7046097560976	2.653	Macedonia, FYR	Europe & Central Asia (all income levels)	2
+#FB61D7	37.1268048780488	6.966	Mali	Sub-Saharan Africa (all income levels)	7
+#F8766D	53.1732682926829	5.431	Myanmar	East Asia & Pacific (all income levels)	1
+#F8766D	57.1662926829268	7.144	Mongolia	East Asia & Pacific (all income levels)	1
+#F8766D	71.5459756097561	1.484	Macao SAR, China	East Asia & Pacific (all income levels)	1
+#FB61D7	50.2526341463415	6.681	Mauritania	Sub-Saharan Africa (all income levels)	7
+#00C094	71.7208536585366	2.274	Malta	Middle East & North Africa (all income levels)	4
+#FB61D7	64.4150487804878	3.255	Mauritius	Sub-Saharan Africa (all income levels)	7
+#A58AFF	47.8337804878049	6.981	Maldives	South Asia	6
+#FB61D7	42.5688292682927	7.481	Malawi	Sub-Saharan Africa (all income levels)	7
+#53B400	63.9288536585366	5.932	Mexico	Latin America & Caribbean (all income levels)	3
+#F8766D	65.7871219512195	4.209	Malaysia	East Asia & Pacific (all income levels)	1
+#FB61D7	41.575	6.554	Mozambique	Sub-Saharan Africa (all income levels)	7
+#FB61D7	55.1675609756098	6.654	Namibia	Sub-Saharan Africa (all income levels)	7
+#F8766D	65.2731707317073	3.6785714286	New Caledonia	East Asia & Pacific (all income levels)	1
+#FB61D7	38.8074146341464	7.579	Niger	Sub-Saharan Africa (all income levels)	7
+#FB61D7	44.2473170731707	6.706	Nigeria	Sub-Saharan Africa (all income levels)	7
+#53B400	56.4802926829268	6.597	Nicaragua	Latin America & Caribbean (all income levels)	3
+#C49A00	74.4987804878049	1.664	Netherlands	Europe & Central Asia (all income levels)	2
+#C49A00	74.8175609756098	1.991	Norway	Europe & Central Asia (all income levels)	2
+#A58AFF	45.3301219512195	5.99	Nepal	South Asia	6
+#F8766D	72.219512195122	2.331	New Zealand	East Asia & Pacific (all income levels)	1
+#00C094	55.6087073170732	7.747	Oman	Middle East & North Africa (all income levels)	4
+#53B400	67.7130487804878	4.484	Panama	Latin America & Caribbean (all income levels)	3
+#53B400	57.0433658536585	5.702	Peru	Latin America & Caribbean (all income levels)	3
+#F8766D	61.7008536585366	4.643	French Polynesia	East Asia & Pacific (all income levels)	1
+#F8766D	49.270512195122	6	Papua New Guinea	East Asia & Pacific (all income levels)	1
+#F8766D	62.015243902439	5.718	Philippines	East Asia & Pacific (all income levels)	1
+#A58AFF	55.9317073170732	6.612	Pakistan	South Asia	6
+#C49A00	70.5609756097561	2.27	Poland	Europe & Central Asia (all income levels)	2
+#53B400	73.0092682926829	2.864	Puerto Rico	Latin America & Caribbean (all income levels)	3
+#C49A00	68.309756097561	2.517	Portugal	Europe & Central Asia (all income levels)	2
+#53B400	66.162512195122	5.217	Paraguay	Latin America & Caribbean (all income levels)	3
+#00C094	69.0741463414634	6.473	Qatar	Middle East & North Africa (all income levels)	4
+#C49A00	69.6139024390244	2.6	Romania	Europe & Central Asia (all income levels)	2
+#C49A00	67.7239024390244	1.98	Russian Federation	Europe & Central Asia (all income levels)	2
+#FB61D7	44.8971951219512	8.234	Rwanda	Sub-Saharan Africa (all income levels)	7
+#00C094	57.4718292682927	7.313	Saudi Arabia	Middle East & North Africa (all income levels)	4
+#F8766D	57.0305365853659	7.236	Solomon Islands	East Asia & Pacific (all income levels)	1
+#FB61D7	47.2092682926829	6.573	Sudan	Sub-Saharan Africa (all income levels)	7
+#C49A00	74.9846341463415	1.779	Sweden	Europe & Central Asia (all income levels)	2
+#F8766D	70.2714146341463	2.079	Singapore	East Asia & Pacific (all income levels)	1
+#C49A00	70.3585365853659	2.21	Slovenia	Europe & Central Asia (all income levels)	2
+#C49A00	70.2462926829269	2.55	Slovak Republic	Europe & Central Asia (all income levels)	2
+#FB61D7	38.6890487804878	5.683	Sierra Leone	Sub-Saharan Africa (all income levels)	7
+#FB61D7	43.4430731707317	7.507	Senegal	Sub-Saharan Africa (all income levels)	7
+#FB61D7	41.4879512195122	7.061	Somalia	Sub-Saharan Africa (all income levels)	7
+#53B400	64.5963414634146	4.735	Suriname	Latin America & Caribbean (all income levels)	3
+#FB61D7	57.8001219512195	6.535	Sao Tome and Principe	Sub-Saharan Africa (all income levels)	7
+#53B400	57.2617317073171	5.718	El Salvador	Latin America & Caribbean (all income levels)	3
+#00C094	63.396487804878	7.472	Syrian Arab Republic	Middle East & North Africa (all income levels)	4
+#FB61D7	50.9770731707317	6.817	Swaziland	Sub-Saharan Africa (all income levels)	7
+#FB61D7	45.678756097561	6.683	Chad	Sub-Saharan Africa (all income levels)	7
+#FB61D7	47.7214146341463	7.276	Togo	Sub-Saharan Africa (all income levels)	7
+#F8766D	62.1719756097561	4.488	Thailand	East Asia & Pacific (all income levels)	1
+#C49A00	61.2963170731707	6.402	Tajikistan	Europe & Central Asia (all income levels)	2
+#F8766D	35.1138536585366	4.794	Timor-Leste	East Asia & Pacific (all income levels)	1
+#C49A00	59.5508048780488	5.783	Turkmenistan	Europe & Central Asia (all income levels)	2
+#00C094	57.6712195121951	5.958	Tunisia	Middle East & North Africa (all income levels)	4
+#F8766D	66.3233902439025	5.426	Tonga	East Asia & Pacific (all income levels)	1
+#C49A00	52.9227073170732	5.021	Turkey	Europe & Central Asia (all income levels)	2
+#53B400	66.1781951219512	3.411	Trinidad and Tobago	Latin America & Caribbean (all income levels)	3
+#FB61D7	48.835243902439	6.751	Tanzania	Sub-Saharan Africa (all income levels)	7
+#C49A00	69.082756097561	2.02	Ukraine	Europe & Central Asia (all income levels)	2
+#FB61D7	50.9377804878049	7.099	Uganda	Sub-Saharan Africa (all income levels)	7
+#00B6EB	72.6048780487805	1.774	United States	North America	5
+#53B400	69.0725609756098	2.981	Uruguay	Latin America & Caribbean (all income levels)	3
+#C49A00	63.9844390243903	5.983	Uzbekistan	Europe & Central Asia (all income levels)	2
+#53B400	62.975243902439	4.973	St. Vincent and the Grenadines	Latin America & Caribbean (all income levels)	3
+#53B400	66.2543170731707	4.67	Venezuela, RB	Latin America & Caribbean (all income levels)	3
+#53B400	69.7781707317073	4.677	Virgin Islands (U.S.)	Latin America & Caribbean (all income levels)	3
+#F8766D	49.5998048780488	6.574	Vietnam	East Asia & Pacific (all income levels)	1
+#F8766D	55.4799756097561	5.929	Vanuatu	East Asia & Pacific (all income levels)	1
+#F8766D	57.469512195122	5.237	Samoa	East Asia & Pacific (all income levels)	1
+#00C094	43.4045853658537	8.089	Yemen, Rep.	Middle East & North Africa (all income levels)	4
+#FB61D7	54.5791951219512	5.251	South Africa	Sub-Saharan Africa (all income levels)	7
+#FB61D7	51.0413658536585	7.435	Zambia	Sub-Saharan Africa (all income levels)	7
+#FB61D7	56.7170243902439	7.395	Zimbabwe	Sub-Saharan Africa (all income levels)	7
