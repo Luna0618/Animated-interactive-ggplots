@@ -11,6 +11,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(animint2)
 library(graphics)
+library(devtools)
+library(gistr)
+gist_auth()
 ```
 
 ### Load data
@@ -232,7 +235,7 @@ add.vars <- function(df, x.var, y.var){
     
 ```
 - Create a multi-panel data visualization that shows each year of the WorldBank data set in a separate panel. What are the limitations of using static graphics to visualize these data?\
-```{r multi-panel, message=FALSE}
+```{r multi-panel, message=FALSE, warning=FALSE}
 min(WorldBank$year)
 max(WorldBank$year)
 #min=1960 max =2012
@@ -252,7 +255,11 @@ viz.panels.all <- list(
     theme_bw()+
     theme(panel.margin=grid::unit(0, "lines"))
   )
-structure(viz.panels.all, class="animint")
+
+#Please run 
+#devtools::install_github('rOpenSci/gistr')before using this function
+animint2gist(viz.panels.all, description = "My animint plot", browse = TRUE)
+#http://bl.ocks.org/Luna0618/raw/64b127c5d0b96f4594c96180e6ea767b/
 ```
 Using the plot I created as an exaple. In this case, as the minimal year is 1960 and maximum is 2012, there will be 52 panels. If it's done using a static graph, there will be too many data points overlap with each other, we cannot see the details for each region. But with interactive graph, we can show data points from selected regions.\
 
