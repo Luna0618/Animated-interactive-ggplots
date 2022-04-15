@@ -11,7 +11,7 @@
 
 <meta name="author" content="Luna Liu" />
 
-<meta name="date" content="2022-04-13" />
+<meta name="date" content="2022-04-14" />
 
 <title>Manual Chapter2 Walkthrough And Exercises</title>
 
@@ -366,7 +366,7 @@ pre code {
 <h1 class="title toc-ignore">Manual Chapter2 Walkthrough And
 Exercises</h1>
 <h4 class="author">Luna Liu</h4>
-<h4 class="date">2022-04-13</h4>
+<h4 class="date">2022-04-14</h4>
 
 </div>
 
@@ -375,7 +375,21 @@ Exercises</h1>
 <h3>Set up animint2 package</h3>
 <pre class="r"><code>knitr::opts_chunk$set(echo = TRUE)
 library(animint2)
-library(graphics)</code></pre>
+library(graphics)
+library(devtools)</code></pre>
+<pre><code>## Loading required package: usethis</code></pre>
+<pre class="r"><code>library(gistr)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;gistr&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:usethis&#39;:
+## 
+##     rename_files</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     embed, update</code></pre>
+<pre class="r"><code>gist_auth()</code></pre>
+<pre><code>## $Authorization
+## [1] &quot;token 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&quot;</code></pre>
 </div>
 <div id="load-data" class="section level3">
 <h3>Load data</h3>
@@ -8919,13 +8933,17 @@ viz.panels.all &lt;- list(
     theme_bw()+
     theme(panel.margin=grid::unit(0, &quot;lines&quot;))
   )
-structure(viz.panels.all, class=&quot;animint&quot;)</code></pre>
-<p>
-</p>
-<div id="multipanel">
 
-</div>
-<script>var multipanel = new animint("#multipanel", "multipanel/plot.json");</script>
+#Please run 
+#devtools::install_github(&#39;rOpenSci/gistr&#39;)before using this function
+animint2gist(viz.panels.all, description = &quot;My animint plot&quot;, browse = TRUE)</code></pre>
+<pre><code>## &lt;gist&gt;64b127c5d0b96f4594c96180e6ea767b
+##   URL: https://gist.github.com/64b127c5d0b96f4594c96180e6ea767b
+##   Description: My animint plot
+##   Public: TRUE
+##   Created/Edited: 2022-04-15T00:21:44Z / 2022-04-15T00:21:44Z
+##   Files: animint.js, d3.v3.js, geom1_point_scatter_chunk1.tsv, index.html, jquery-1.11.3.min.js, plot.json, scripts.html, selectize.css, selectize.min.js
+##   Truncated?: FALSE, FALSE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE</code></pre>
 <p>Using the plot I created as an exaple. In this case, as the minimal
 year is 1960 and maximum is 2012, there will be 52 panels. If it’s done
 using a static graph, there will be too many data points overlap with
