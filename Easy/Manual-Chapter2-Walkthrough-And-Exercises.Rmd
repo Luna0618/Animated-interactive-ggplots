@@ -183,7 +183,7 @@ structure(viz.panels, class="animint")
 add2.x.var <- function(df, x.var){
   data.frame(df, x.var=factor(x.var, c("year", "life expectancy")))
 }
-(viz.aligned.switch <- animint(
+(viz.aligned.switch <- list(
   scatter=ggplot()+
     geom_point(aes(x=life.expectancy, y=fertility.rate, color=region),
                data=add2.x.var(WorldBank1975, "life expectancy"))+
@@ -197,6 +197,8 @@ add2.x.var <- function(df, x.var){
     theme_bw()+
     theme(panel.margin=grid::unit(0, "lines"))
   ))
+animint2gist(viz.aligned.switch, description = "My animint plot", browse = TRUE)
+#http://bl.ocks.org/Luna0618/raw/136edc11b06e4020dd6027a05dbf0e83/
 ```
 - In viz.aligned the scatterplot displays fertility rate and life expectancy, but the time series displays only fertility rate. Make another version of the data visualization that shows both time series. Hint: use both horizontal and vertical panels in facet_grid.\
 Sketch of the idea:\
@@ -224,6 +226,7 @@ add.vars <- function(df, x.var, y.var){
     theme_bw()+
     theme(panel.margin=grid::unit(0, "lines"))
   ))
+
 ```
 - Use aes(size=population) in the scatterplot to show the population of each country. Hint: scale_size_animint(pixel.range=c(5, 10) means that circles with a radius of 5/10 pixels should be used represent the minimum/maximum population.\
 ```{r scatter-pop, message = FALSE}
@@ -258,7 +261,7 @@ viz.panels.all <- list(
 
 #Please run 
 #devtools::install_github('rOpenSci/gistr')before using this function
-animint2gist(viz.panels.all, description = "My animint plot", browse = TRUE)
+#animint2gist(viz.panels.all, description = "My animint plot", browse = TRUE)
 #http://bl.ocks.org/Luna0618/raw/64b127c5d0b96f4594c96180e6ea767b/
 ```
 Using the plot I created as an exaple. In this case, as the minimal year is 1960 and maximum is 2012, there will be 52 panels. If it's done using a static graph, there will be too many data points overlap with each other, we cannot see the details for each region. But with interactive graph, we can show data points from selected regions.\
