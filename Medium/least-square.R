@@ -33,12 +33,13 @@ act_y <- cbind(act_y, iteration = seq(1:50))
 line.plot <- ggplot()+
     geom_point(data = points, aes(x=x,y=y), shape = 1) +
     geom_abline(slope = 1.5, intercept = 0.5, color = "grey", alpha = 0.5) +
-    geom_abline(data = lines, aes(slope = slopes, intercept = 0.5, color = iteration))  
-#    geom_point(aes(x=points$x, y=act_y, color = "iteration"))
+    geom_abline(data = lines, aes(slope = slopes, intercept = 0.5, color= iteration)) 
+#    geom_point(aes(x=points$x, y=act_y, showSelected = iteration))
 
+line.plot
 
-
-viz <- list(line = line.plot, title = "")
-viz$time <- list(variable = "iteration", ms = 150)
+viz <- list(line = line.plot,
+            time = list(variable = "iteration", ms = 2000), 
+            title = "")
 animint2dir(viz, out.dir = "least.squares")
 animint2gist(viz, out.dir = "least.squares")
