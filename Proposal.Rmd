@@ -1,0 +1,56 @@
+---
+title: "Proposal"
+author: "Luna Liu"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+# Project Info
+
+Project title: new animint2 features
+
+Project short title (30 characters): implementing new features for animint2 package in R
+
+URL of project idea page: https://github.com/rstats-gsoc/gsoc2022/wiki/Animated-interactive-ggplots
+
+# Bio of Contributor
+
+My name is Luna Liu. I am a fourth year Bachelor of Science student at UBC. My major is Computer Science, I used JavaScript to code several projects, including Hackathon projects and academic projects; My minor is Statistics, all my Stats courses use R, a few academic projects are completed with R.
+
+# Contact Information
+
+Contributor name: Luna Liu
+
+Contributor postal address: V6N 3G5(valid from May)
+
+Telephone(s): 236-865-6618
+
+Email(s): lunar990618@gmail.com
+
+Other communications channels: Skype/Google+, etc. :
+
+# Contributor Affiliation
+
+Institution: University of British Columbia
+
+Program: Bachelor of Science, Major Computer Science, Minor Statistics
+
+Stage of completion: Expected graduation time: May 2023
+
+Contact to verify:
+
+# Schedule Conflicts
+
+I will be on a Co-op work term during this time period. But as my Co-op company is in a different time zone with me, I am usually available after 3. I can spend about 3-4 hours everyday on GSOC project.
+
+# Mentors
+
+Evaluating mentor name and email: Toby Dylan Hocking (tdhock5@gmail.com), Faizan Khan (faizan.khan.iitbhu@gmail.com)
+
+Co-mentor name(s) and email(s): (at least one co-mentor required, who has to be from a different physical institution from the evaluating mentor)
+
+Have you been in touch with the mentors? When and how?
+I have been in touch with Professor Hocking through emails.
+
+# Coding Plan and Methods
+
