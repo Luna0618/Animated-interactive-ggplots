@@ -1,0 +1,102 @@
+---
+title: "Proposal"
+author: "Luna Liu"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+# Project Info
+
+Project title: new animint2 features
+
+Project short title (30 characters): implementing new features for animint2 package in R
+
+URL of project idea page: https://github.com/rstats-gsoc/gsoc2022/wiki/Animated-interactive-ggplots
+
+# Bio of Contributor
+
+My name is Luna Liu. I am a fourth year Bachelor of Science student at UBC. My major is Computer Science, I used JavaScript to code several projects, including Hackathon projects and academic projects; My minor is Statistics, all my Stats courses use R, a few academic projects are completed with R; I have took a course about DSL and finished a project, I am familiar with the process of building a DSL.
+
+# Contact Information
+
+Contributor name: Luna Liu
+
+Contributor postal address: V6N 3G5(valid from May)
+
+Telephone(s): 236-865-6618
+
+Email(s): lunar990618@gmail.com
+
+# Contributor Affiliation
+
+Institution: University of British Columbia
+
+Program: Bachelor of Science, Major Computer Science, Minor Statistics
+
+Stage of completion: Expected graduation time: May 2023
+
+# Schedule Conflicts
+
+I will be on a Co-op work term during this time period. But as my Co-op company is in a different time zone with me, I am usually available after 3. I can spend about 3-4 hours everyday on GSOC project.
+
+# Mentors
+
+Evaluating mentor name and email: Toby Dylan Hocking (tdhock5@gmail.com)
+
+Co-mentor name(s) and email(s): Carson Sievert(cpsievert1@gmail.com)
+
+Have you been in touch with the mentors? When and how?  
+I have been in touch with Professor Hocking through emails.
+
+# Coding Plan and Methods
+
+- The idea: Currently, selected items in Animint are shown with a black border outline stroke for rectangles, and with 0.5 more alpha transparency for all other geoms. This should be configurable using new aesthetics such as selected.color, selected.alpha, etc.
+
+The implementation has two stages,  
+First, at `geom` stage, e.g. geom_point(aes(clickSelects=var),selected.color="red"). The code probably needs to be looked into is `/R/geom-.r` and `/inst/htmljs/animint.js`.  
+Second, at `aes` level, e.g. geom_point(aes(clickSelects=var1,selected.color=var2)). The code needs to be override might be related to `/R/aes.r` and `/inst/htmljs/animint.js`.  
+(relevant resources: /NEWS: DSL: customizable alpha/color/size/fill/linetype for selected geoms section.)
+
+- Introduce dependency on data.table, so that data visualizations with large data sets can be compiled faster. An example to benchmark would be the PeakSegJoint data viz.
+
+- Support for multiple clickSelects aesthetics per geom.
+
+The correct behavior:  highlight only the geoms that have all their clickSelects values selected.
+
+Two ways to implement it:  
+looping over all clickSelects variables inside ifSelectedElse  
+(preferred) keeping track of counts of active selectors for each geom  
+
+(relevant resources: https://github.com/tdhock/animint/pull/31)
+
+- New hoverSelects aesthetic which updates the selection just by hovering the mouse over an element, including tests that simulate mouseover/mouseout events.
+
+Current barrier: Write JavaScript tests for mouseover/mouseout events.
+
+(relevant resources: https://github.com/tdhock/animint/issues/117, https://github.com/ropensci/RSelenium/issues/59)
+
+# Timeline
+
+May 20-June 12: Before coding period starts, read through the whole manual to get familiar with the animint2 package. Especially Chapter 14 and Chapter 6, the chapter involves the usage of named clickSelects/showSelected variables.   
+Make a plan about which part of the code needed to be edited for each idea.  
+Get familiar with ggplot2, as animint2 uses the basic structure of ggplot2.
+
+Jun 13-mid Jul: Implement the first selected feature
+
+mid Jul-Jul 25: Write tests/ examples/documentations for first feature
+
+Jul 25- Jul 29: Phase 1 evaluation
+
+Jul 25-late Aug: Implement the second feature(maybe third)
+
+late Aug-Sep 4: Write tests/examples/documentation for second feature
+
+Sep 5-Sep 12: Final week, submit work and evaluation
+
+# Management of Coding Project
+
+I planned to commit **twice each week* and there are important improvements. 
+
+# Test
+
+https://github.com/Luna0618/Animated-interactive-ggplots
