@@ -36,7 +36,8 @@ line.plot <- ggplot()+
     geom_abline(data = lines, aes(slope = slopes, intercept = 0.5, color= iteration)) 
 #    geom_point(aes(x=points$x, y=act_y, showSelected = iteration))
 
-line.plot
+# Error in animint2dir(viz, out.dir = "least.squares") : 
+#no interactive aes for time variable iteration
 
 viz <- list(line = line.plot,
             time = list(variable = "iteration", ms = 2000), 
